@@ -7,7 +7,7 @@ html {
 
 body {
   
-  font-family: "Open Sans", sans-serif;
+  
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -15,3 +15,13 @@ body {
   justify-content: center;
   background: rgb(37, 37, 37);
 }
+ button{
+   height: 45px;
+   width: auto;
+   cursor: pointer;
+   outline: none;
+   font-family: "Open Sans", sans-serif;
+ }
+ button:hover{
+    filter: brightness(70%);
+ }
